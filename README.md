@@ -6,7 +6,7 @@ A home-task to write in-memory key:value cache library for Go.
 
 ### Installing
 
-Using libcache is easy. First, use go get to install the latest version of the library.
+Using is easy. First, use go get to install the latest version of the library.
 
 ```sh
 go get github.com/Anna-Karenina/ht_in_mem_cache
