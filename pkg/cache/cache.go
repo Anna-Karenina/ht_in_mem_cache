@@ -6,9 +6,10 @@ type Cache struct {
 	items map[string]interface{}
 }
 
-func (c *Cache) New() map[string]interface{} {
-
-	return c.items
+func NewCache() Cache {
+	i := make(map[string]interface{})
+	c := Cache{items: i}
+	return c
 }
 
 func (c *Cache) Set(key string, value interface{}) {
